@@ -8,7 +8,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      monsters: []
+      monsters: [],
+      searchField: '',
     }
   }
 
@@ -21,12 +22,26 @@ class App extends Component {
 
   // render() comes built in with React Component
   render() {
+
+    const { monsters, searchField } = this.state;
+    // const monsters = this.state.monsters;
+    // searchField = this.state.searchField;
+    const filteredMonsters = monsters.filter(monster => monster.name.toLowerCase().includes(searchField.toLowerCase()));
+
     return (
       <div className="App" >
-        <CardList monsters={this.state.monsters} />
+
+        <input type="search" placeholder="Search Monster" onChange={e => this.setState({
+          searchField: e.target.value
+        })} />
+
+        <CardList monsters={filteredMonsters} />
+
       </div>
     );
   }
 }
 
 export default App;
+
+// setState is a asynchronous function call
