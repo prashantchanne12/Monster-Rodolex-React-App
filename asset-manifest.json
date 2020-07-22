@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Monster-Rodolex-React-App/static/css/main.50309ade.chunk.css",
+    "main.js": "/Monster-Rodolex-React-App/static/js/main.3d3f9ba7.chunk.js",
+    "main.js.map": "/Monster-Rodolex-React-App/static/js/main.3d3f9ba7.chunk.js.map",
+    "runtime-main.js": "/Monster-Rodolex-React-App/static/js/runtime-main.62fe4a6f.js",
+    "runtime-main.js.map": "/Monster-Rodolex-React-App/static/js/runtime-main.62fe4a6f.js.map",
+    "static/js/2.459ea644.chunk.js": "/Monster-Rodolex-React-App/static/js/2.459ea644.chunk.js",
+    "static/js/2.459ea644.chunk.js.map": "/Monster-Rodolex-React-App/static/js/2.459ea644.chunk.js.map",
+    "index.html": "/Monster-Rodolex-React-App/index.html",
+    "precache-manifest.facee83de6d3ebacc92b6bcad07fc1f3.js": "/Monster-Rodolex-React-App/precache-manifest.facee83de6d3ebacc92b6bcad07fc1f3.js",
+    "service-worker.js": "/Monster-Rodolex-React-App/service-worker.js",
+    "static/css/main.50309ade.chunk.css.map": "/Monster-Rodolex-React-App/static/css/main.50309ade.chunk.css.map",
+    "static/js/2.459ea644.chunk.js.LICENSE.txt": "/Monster-Rodolex-React-App/static/js/2.459ea644.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62fe4a6f.js",
+    "static/js/2.459ea644.chunk.js",
+    "static/css/main.50309ade.chunk.css",
+    "static/js/main.3d3f9ba7.chunk.js"
+  ]
+}
